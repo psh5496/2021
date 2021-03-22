@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    <header>
+        <a href=""><img id="logo" src="image/logo.svg"></a>
+        <div id="img-container">
+            <img id="dark" src="image/dark.svg">
+            <img id="light" src="image/light.svg">
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <div id="first-input">
+                <input id="id" placeholder="아이디를 입력하세요" type="text">
+                <button id="overlap" type="button">중복확인</button>
+            </div>
+            <input id="pw" placeholder="비밀번호를 입력하세요" type="text">
+            <input id="check" placeholder="비밀번호를 확인해주세요" type="text">
+            <button id="confirm" type="submit">확인</button>
+        </form>
+    </main>
+    <script src="darkMode.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="hooks.js"></script>
+</body>
+</html>
