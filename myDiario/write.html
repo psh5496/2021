@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일기 작성하기</title>
+    <link rel="stylesheet" href="write.css">
+</head>
+<body>
+    <header>
+        <a href=""><img id="logo" src="image/logo.svg"></a>
+        <div id="img-container">
+            <img id="dark" src="image/dark.svg">
+            <img id="light" src="image/light.svg">
+        </div>
+    </header>
+    <nav>
+        <button id="bookMark">즐겨찾기</button>
+    </nav>
+    <main>
+        <div id="side-bar">
+            <input type="date">
+            <button>요일을 선택해주세요</button>
+            <button>날씨를 선택해주세요</button>
+            <button>기분을 선택해주세요</button>
+        </div>
+        <div id="main">
+            <div id="input">
+                <textarea id="title" placeholder="제목을 입력하세요"></textarea>
+                <button id="resistration">등록</button>
+            </div>
+            <textarea id="content" placeholder="내용을 입력하세요"></textarea>
+        </div>
+    </main>
+    <script src="darkMode.js"></script>
+</body>
+</html>
