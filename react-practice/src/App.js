@@ -1,8 +1,8 @@
 import React from 'react';
-import Todo from './Todo/Todo';
+import TodoBox from './Todo/TodoBox';
 
 function App() {
-    return <Todo />;
+    return <TodoBox />;
 }
 
 export default App;
